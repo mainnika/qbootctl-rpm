@@ -1,3 +1,5 @@
+%global _vpath_srcdir qbootctl
+
 Name:           qbootctl
 Version:        0.1.2
 Release:        1%{?dist}
