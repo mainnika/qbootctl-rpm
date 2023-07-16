@@ -6,8 +6,8 @@ Release:        1%{?dist}
 Summary:        Qualcomm bootctl HAL for Linux
 
 License:        GPL-3.0-or-later
-URL:            https://gitlab.com/sdm845-mainline/qbootctl
-Source:         https://gitlab.com/sdm845-mainline/qbootctl/-/archive/main/qbootctl-main.zip
+URL:            https://code.tokarch.uk/third_party/qbootctl
+Source:         https://code.tokarch.uk/third_party/qbootctl/archive/main.zip
 
 BuildRequires:  meson
 BuildRequires:  cmake
