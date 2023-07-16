@@ -17,9 +17,6 @@ BuildRequires:  gcc
 BuildRequires:  gcc-c++
 Requires:       zlib
 
-%description devel
-%{summary}.
-
 %prep
 %autosetup -c
 
