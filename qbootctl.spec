@@ -12,7 +12,7 @@ Source:         https://code.tokarch.uk/third_party/qbootctl/archive/main.zip
 BuildRequires:  meson
 BuildRequires:  cmake
 BuildRequires:  zlib-devel
-BuildRequires:  linux-headers
+BuildRequires:  kernel-headers
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
 Requires:       zlib
