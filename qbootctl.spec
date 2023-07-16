@@ -1,5 +1,3 @@
-%global _vpath_srcdir sdk/%{name}/projects/meson
-
 Name:           qbootctl
 Version:        0.1.2
 Release:        1%{?dist}
