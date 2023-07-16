@@ -6,7 +6,7 @@ Release:        1%{?dist}
 Summary:        Qualcomm bootctl HAL for Linux
 
 License:        GPL-3.0-or-later
-URL:            https://gitlab.com/sdm845-mainline
+URL:            https://gitlab.com/sdm845-mainline/qbootctl
 Source:         https://gitlab.com/sdm845-mainline/qbootctl/-/archive/main/qbootctl-main.zip
 
 BuildRequires:  meson
@@ -16,6 +16,10 @@ BuildRequires:  linux-headers
 BuildRequires:  gcc
 BuildRequires:  gcc-c++
 Requires:       zlib
+
+%description
+Qualcomm bootctl HAL for Linux
+This HAL was pulled from AOSP source code and bastardised to build and run on a musl/glibc system. This may or may not render any hardware you run it on unusable, you have been warned.
 
 %prep
 %autosetup -c
